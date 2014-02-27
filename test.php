@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require 'devkey.php';
+require 'enkey.php';
 $noteStoreUrl = 'https://sandbox.evernote.com/shard/s1/notestore';
  
 $client = new Evernote\Client(array('token' => $devToken));
