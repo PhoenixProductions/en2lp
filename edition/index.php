@@ -12,6 +12,8 @@ $etagval = md5($deliverycount);
 //fetch shopping list notes:
 init_evernote($devToken);
 
+//todo get notes in the "list" tag that are newer than the last printed date.
+
 $filter = new EDAM\NoteStore\NoteFilter();
 $filter->tagGuids = [$tagguid];
 $filter->ascending = false;

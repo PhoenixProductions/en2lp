@@ -4,7 +4,7 @@
   "name": "Evernote Shopping List",
   "description": "Evernote Shopping List",
   "delivered_on": "every day",
-  "external_configuration": false,
+  "external_configuration": true,
   "send_timezone_info": true,
   "send_delivery_count": false,
   "config": {
